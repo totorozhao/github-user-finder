@@ -14,6 +14,9 @@ h1 {
     font-size: 2rem;
     text-align: center;
 }
+.view-history{
+    font-size: 14px;
+}
 
 h2 {
     font-size: 1.5rem;
@@ -26,4 +29,21 @@ h2 {
 .star-count{
     margin-left: auto;
     margin-right: 8px;
+}
+#history{
+    right: 0;
+    bottom: 0;
+    width: 180px;
+    min-height: 350px;
+    position: fixed;
+    border: 1px solid  rgba(152, 143, 152, 0.80);
+    border-right: 0;
+}
+
+@media (max-width:430px){
+    #history {
+        width:100%;
+        height: 250px;
+        border-left: 0;
+      }
 }
